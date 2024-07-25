@@ -77,7 +77,7 @@ section p {
     padding-top: 20px;
 }
 
-.best h3 {
+.seller h3 {
    padding-top: 30px;
    padding-left: 10px;
    padding-bottom: 20px;
@@ -112,7 +112,7 @@ section p {
     font-weight: bolder;
 }
 
-.best button {
+.seller button {
     background-color: blue;
     color: blanchedalmond;
     width: 10vw;
@@ -120,8 +120,65 @@ section p {
     display: block;
     position: relative;
     margin: 0 auto;
-    top: -100px;
+    top: -10px;
 }
+
+
+
+/* */
+
+.card-group {
+    display: flex;
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+
+#Books {
+    position: relative;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+
+.card-group .card {
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    background-color: beige;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.card-image-top {
+    width: 350px;
+    height: 350px;
+}
+
+.card .card-body {
+    background-color: cadetblue;
+}
+
+.card-body .card-title{
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-top: 5px;
+    color: azure;
+}
+.card button {
+    background-color: bisque;
+    color: cadetblue;
+    height: 6vh;
+    width: 8vw;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
 
 @media(max-width: 430px) {
     figure {
