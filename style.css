@@ -16,6 +16,10 @@ figure img {
     height: 300px;
 }
 
+figure img:hover {
+   box-shadow: 4px 8px 16px green;
+}
+
 
 nav {
     position: sticky;
@@ -61,11 +65,15 @@ nav a {
     margin-top: 20px;
 }
 
+.home input:hover{
+    box-shadow: 0 8px 10px green;
+}
 
 section {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-shadow: 2px 4px 6px crimson;
 }
 
 section p {
@@ -150,7 +158,7 @@ section p {
     border: 1px solid black;
 }
 
-.card-image-top {
+.card-img-top {
     width: 350px;
     height: 350px;
 }
@@ -178,7 +186,69 @@ section p {
     margin-bottom: 10px;
 }
 
+/* */
 
+.contact {
+    margin-top: 50px;
+    background-color: slategrey;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+.contact h3 {
+    padding-bottom: 20px;
+    background-color: azure;
+}
+
+.contact img {
+    width: 50px;
+    background-color: azure;
+}
+
+/* */
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+footer p {
+    font-size: medium;
+}
+
+footer :first-child {
+   font-size: large;   
+}
+
+footer div a {
+    color: black;
+    display: block;
+    font-size: medium;
+}
+
+
+
+button:hover{
+    background-color: crimson;
+    color: aquamarine;
+}
+
+button:active{
+    background-color: black;
+    color: cornsilk;
+}
+
+nav:hover{
+    background-color: crimson;
+}
+
+.books:hover{
+    box-shadow: 4px 8px 16px crimson;
+}
 
 @media(max-width: 430px) {
     figure {
@@ -217,4 +287,40 @@ section p {
     section p {
         font-size: smaller;
     }
+
+
+
+    /*  */
+
+.card-group {
+    display: grid;
+    margin-left: 10px;
 }
+
+.books {
+    margin-bottom: 20px ;
+}
+
+.books img {
+    width: 250px;
+    height: 200px;
+}
+
+.books button {
+    width: 20vw;
+    height: 5vh;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.contact {
+    background-color: beige;
+}
+.contact h3 {
+    font-size: medium;
+    margin-top: -10;
+}
+
+}
+
